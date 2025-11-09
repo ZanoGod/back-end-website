@@ -1,0 +1,80 @@
+[2025-10-11 03:55:27] [ERROR] Database connection failed: Database connection failed. Please try again later.
+[2025-10-11 05:37:39] [INFO] New user created: john.doe@test.com (ID: 1)
+[2025-10-11 05:37:48] [INFO] User logged in: john.doe@test.com (ID: 1)
+[2025-10-11 05:39:28] [INFO] New user created: test@example.com (ID: 2)
+[2025-10-11 05:39:29] [INFO] User logged in: test@example.com (ID: 2)
+[2025-10-11 05:50:21] [INFO] New user created: zayarmyooo.dev@gmail.com (ID: 3)
+[2025-10-11 05:52:11] [INFO] User logged in: john.doe@test.com (ID: 1)
+[2025-10-11 05:54:38] [INFO] New user created: test@test.com (ID: 4)
+[2025-10-11 05:55:16] [INFO] User logged in: test@test.com (ID: 4)
+[2025-10-11 05:57:08] [INFO] New user created: zayar@gmail.com (ID: 5)
+[2025-10-11 12:19:56] [INFO] User logged in: zayar@gmail.com (ID: 5)
+[2025-10-11 12:44:06] [INFO] User logged in: john.doe@test.com (ID: 1)
+[2025-10-11 12:56:48] [INFO] User logged in: test@test.com (ID: 4)
+[2025-10-11 12:57:18] [ERROR] Community error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'field list'
+[2025-10-11 12:58:43] [ERROR] Community error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'field list'
+[2025-10-11 12:59:16] [ERROR] Community error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'field list'
+[2025-10-11 12:59:47] [ERROR] Community error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'field list'
+[2025-10-11 13:03:17] [ERROR] Community error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'photo_url' in 'field list'
+[2025-10-11 13:04:14] [INFO] User logged in: test@test.com (ID: 4)
+[2025-10-11 13:04:21] [ERROR] Community error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'photo_url' in 'field list'
+[2025-10-11 13:04:34] [ERROR] Community error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'photo_url' in 'field list'
+[2025-10-11 13:08:03] [INFO] User logged in: john.doe@test.com (ID: 1)
+[2025-10-11 13:12:35] [INFO] User logged in: john.doe@test.com (ID: 1)
+[2025-10-11 13:21:47] [ERROR] Community post error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'photo_url' in 'field list'
+[2025-10-11 13:22:09] [ERROR] Community post error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'photo_url' in 'field list'
+[2025-10-11 13:23:43] [INFO] User logged in: john.doe@test.com (ID: 1)
+[2025-10-11 13:23:59] [ERROR] Like post error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'like_count' in 'field list'
+[2025-10-11 13:24:18] [ERROR] Like post error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'like_count' in 'field list'
+[2025-10-11 13:24:19] [ERROR] Like post error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'like_count' in 'field list'
+[2025-10-11 13:24:25] [ERROR] Add comment error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment_count' in 'field list'
+[2025-10-11 13:32:01] [ERROR] Like post error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'like_count' in 'field list'
+[2025-10-11 13:44:04] [INFO] User logged in: john.doe@test.com (ID: 1)
+[2025-10-11 13:49:48] [ERROR] Edit resource error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'link' cannot be null
+[2025-10-11 13:50:03] [ERROR] Edit resource error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'link' cannot be null
+[2025-10-11 15:14:33] [INFO] User logged in: john.doe@test.com (ID: 1)
+[2025-10-11 15:30:03] [ERROR] Like post error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'like_count' in 'field list'
+[2025-10-11 15:30:03] [ERROR] Like post error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'like_count' in 'field list'
+[2025-10-11 15:30:04] [ERROR] Like post error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'like_count' in 'field list'
+[2025-10-11 15:30:06] [ERROR] Add comment error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment_count' in 'field list'
+[2025-10-11 15:34:00] [ERROR] Like post error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'like_count' in 'field list'
+[2025-10-11 15:35:20] [ERROR] Like post error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'like_count' in 'field list'
+[2025-10-11 15:35:47] [ERROR] Like post error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'like_count' in 'field list'
+[2025-10-11 15:36:00] [ERROR] Add comment error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment_count' in 'field list'
+[2025-10-11 15:36:17] [ERROR] Add comment error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment_count' in 'field list'
+[2025-10-11 15:36:25] [INFO] User logged in: john.doe@test.com (ID: 1)
+[2025-10-11 15:36:33] [ERROR] Like post error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'like_count' in 'field list'
+[2025-10-11 15:43:09] [INFO] User logged in: system@foodfusion.com (ID: 6)
+[2025-10-11 15:48:51] [INFO] New user created: zayarmyooo@gmail.com (ID: 7)
+[2025-10-11 15:49:48] [INFO] User logged in: john.doe@test.com (ID: 1)
+[2025-10-11 15:52:56] [INFO] New user created: thuta@gmail.com (ID: 8)
+[2025-10-11 15:56:40] [INFO] User logged in: system@foodfusion.com (ID: 6)
+[2025-10-11 15:58:04] [INFO] User logged in: john.doe@test.com (ID: 1)
+[2025-10-11 15:58:24] [INFO] User logged in: thuta@gmail.com (ID: 8)
+[2025-10-11 15:58:37] [INFO] User logged in: john.doe@test.com (ID: 1)
+[2025-10-11 17:02:42] [INFO] User logged in: john.doe@test.com (ID: 1)
+[2025-10-12 05:49:38] [ERROR] Database connection failed: Database connection failed. Please try again later.
+[2025-10-12 05:49:38] [ERROR] Database connection failed: Database connection failed. Please try again later.
+[2025-10-12 05:49:41] [ERROR] Database connection failed: Database connection failed. Please try again later.
+[2025-10-12 05:49:46] [ERROR] Database connection failed: Database connection failed. Please try again later.
+[2025-10-12 05:49:48] [ERROR] Database connection failed: Database connection failed. Please try again later.
+[2025-10-12 14:02:51] [INFO] User logged in: john.doe@test.com (ID: 1)
+[2025-10-12 14:05:20] [INFO] User logged in: thuta@gmail.com (ID: 8)
+[2025-10-28 15:06:55] [INFO] User logged in: zayarmyooo.dev@gmail.com (ID: 3)
+[2025-10-28 15:07:59] [ERROR] Recipe creation error: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'image_url' at row 1
+[2025-10-28 15:08:15] [ERROR] Recipe creation error: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'image_url' at row 1
+[2025-11-05 13:59:59] [INFO] User logged in: thuta@gmail.com (ID: 8)
+[2025-11-06 14:28:45] [INFO] User logged in: zayarmyooo.dev@gmail.com (ID: 3)
+[2025-11-06 15:16:25] [INFO] User logged in: zayarmyooo.dev@gmail.com (ID: 3)
+[2025-11-08 16:16:02] [INFO] User logged in: zayarmyooo.dev@gmail.com (ID: 3)
+[2025-11-08 17:15:36] [ERROR] Database connection failed: Database connection failed. Please try again later.
+[2025-11-08 17:22:48] [INFO] User logged in: zin@gmail.com (ID: 1)
+[2025-11-09 10:40:25] [ERROR] Recipes fetch error: Database connection failed. Please try again later.
+[2025-11-09 10:40:29] [ERROR] Recipes fetch error: Database connection failed. Please try again later.
+[2025-11-09 10:40:33] [ERROR] Community fetch error: Database connection failed. Please try again later.
+[2025-11-09 10:40:37] [ERROR] Community fetch error: Database connection failed. Please try again later.
+[2025-11-09 10:40:42] [ERROR] Login error: Database connection failed. Please try again later.
+[2025-11-09 10:43:34] [INFO] New user created: zw@gmail.com (ID: 3)
+[2025-11-09 10:44:32] [INFO] User logged in: zw@gmail.com (ID: 3)
+[2025-11-09 14:19:07] [INFO] User logged in: zin@gmail.com (ID: 1)
+[2025-11-09 16:47:24] [INFO] User logged in: zw@gmail.com (ID: 3)

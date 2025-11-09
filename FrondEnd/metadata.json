@@ -1,0 +1,5 @@
+{
+  "name": "FoodFusion",
+  "description": "A modern, visually appealing recipe discovery web application built with React and Tailwind CSS. Users can explore recipes, join a community, and find culinary resources.",
+  "requestFramePermissions": []
+}

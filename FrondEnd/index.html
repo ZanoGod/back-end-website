@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodFusion - Discover Delicious Recipes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "brand-primary": "#8B5CF6",
+              "brand-primary-light": "#A78BFA",
+              "brand-secondary": "#06B6D4",
+              "brand-accent": "#F59E0B",
+              "brand-dark": "#0F172A",
+              "brand-gray": "#1E293B",
+              "brand-gray-dark": "#334155",
+              "brand-light-gray": "#F1F5F9",
+              "brand-bg": "#020617",
+              "brand-surface": "#1E293B",
+              "brand-orange": "#F97316",
+            },
+            fontFamily: {
+              sans: ['"Poppins"', "sans-serif"],
+            },
+            backgroundImage: {
+              "gradient-primary":
+                "linear-gradient(135deg, #8B5CF6 0%, #06B6D4 100%)",
+              "gradient-dark":
+                "linear-gradient(135deg, #0F172A 0%, #1E293B 100%)",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: #1e293b;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: linear-gradient(135deg, #8b5cf6 0%, #06b6d4 100%);
+        border-radius: 4px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(135deg, #a78bfa 0%, #22d3ee 100%);
+      }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "react/": "https://aistudiocdn.com/react@^19.2.0/",
+          "react": "https://aistudiocdn.com/react@^19.2.0",
+          "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+          "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.4"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
