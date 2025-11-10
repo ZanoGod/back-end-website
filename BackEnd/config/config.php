@@ -7,7 +7,7 @@ ini_set('display_errors', 1);
 
 // Database configuration
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'myfoodfusion');
+define('DB_NAME', 'foodfusion');
 define('DB_USER', 'root');
 define('DB_PASS', ''); // Change this in production
 define('DB_CHARSET', 'utf8mb4');
