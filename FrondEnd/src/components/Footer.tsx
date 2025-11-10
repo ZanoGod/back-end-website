@@ -17,14 +17,14 @@ const Footer: React.FC = () => {
                             Promoting home cooking and culinary creativity among food enthusiasts worldwide.
                         </p>
                         <div className="flex space-x-4">
-                            <a href="#" className="text-gray-400 hover:text-brand-primary transition-all duration-300 p-2 rounded-lg hover:bg-brand-surface/30"><FacebookIcon className="w-6 h-6" /></a>
-                            <a href="#" className="text-gray-400 hover:text-brand-primary transition-all duration-300 p-2 rounded-lg hover:bg-brand-surface/30"><InstagramIcon className="w-6 h-6" /></a>
-                            <a href="#" className="text-gray-400 hover:text-brand-primary transition-all duration-300 p-2 rounded-lg hover:bg-brand-surface/30"><TwitterIcon className="w-6 h-6" /></a>
-                            <a href="#" className="text-gray-400 hover:text-brand-primary transition-all duration-300 p-2 rounded-lg hover:bg-brand-surface/30"><PinterestIcon className="w-6 h-6" /></a>
+                            <a href="https://www.facebook.com/Zinwaiyan.2002/" className="text-gray-400 hover:text-brand-primary transition-all duration-300 p-2 rounded-lg hover:bg-brand-surface/30"><FacebookIcon className="w-6 h-6" /></a>
+                            <a href="https://www.instagram.com/zin_waiyan_20" className="text-gray-400 hover:text-brand-primary transition-all duration-300 p-2 rounded-lg hover:bg-brand-surface/30"><InstagramIcon className="w-6 h-6" /></a>
+                            <a href="https://x.com/" className="text-gray-400 hover:text-brand-primary transition-all duration-300 p-2 rounded-lg hover:bg-brand-surface/30"><TwitterIcon className="w-6 h-6" /></a>
+                            <a href="https://www.pinterest.com/ideas/food-cuisines/954675036989/" className="text-gray-400 hover:text-brand-primary transition-all duration-300 p-2 rounded-lg hover:bg-brand-surface/30"><PinterestIcon className="w-6 h-6" /></a>
                         </div>
                     </div>
                     {/* Quick Links */}
-                    <div>
+                    <div>   
                         <h3 className="font-bold text-lg mb-6 tracking-wider text-white">Quick Links</h3>
                         <ul className="space-y-3">
                             <li><Link to="/about" className="text-gray-400 hover:text-brand-primary transition-all duration-300 text-sm hover:translate-x-1">About Us</Link></li>
@@ -71,11 +71,11 @@ const Footer: React.FC = () => {
                 <div className="border-t border-brand-surface/30 mt-12 pt-8 text-center text-gray-500 text-sm">
                     <p className="mb-4">&copy; {new Date().getFullYear()} FoodFusion. All rights reserved.</p>
                     <div className="flex justify-center items-center space-x-6">
-                        <a href="#" className="hover:text-brand-primary transition-colors duration-300">Privacy Policy</a>
+                        <a href="https://policies.google.com/" className="hover:text-brand-primary transition-colors duration-300">Privacy Policy</a>
                         <span className="text-gray-600">&bull;</span>
-                        <a href="#" className="hover:text-brand-primary transition-colors duration-300">Terms of Service</a>
+                        <a href="https://policies.google.com/" className="hover:text-brand-primary transition-colors duration-300">Terms of Service</a>
                         <span className="text-gray-600">&bull;</span>
-                        <a href="#" className="hover:text-brand-primary transition-colors duration-300">Cookie Policy</a>
+                        <a href="https://policies.google.com/" className="hover:text-brand-primary transition-colors duration-300">Cookie Policy</a>
                     </div>
                 </div>
             </div>
