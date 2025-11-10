@@ -66,15 +66,19 @@
 [2025-11-05 13:59:59] [INFO] User logged in: thuta@gmail.com (ID: 8)
 [2025-11-06 14:28:45] [INFO] User logged in: zayarmyooo.dev@gmail.com (ID: 3)
 [2025-11-06 15:16:25] [INFO] User logged in: zayarmyooo.dev@gmail.com (ID: 3)
-[2025-11-08 16:16:02] [INFO] User logged in: zayarmyooo.dev@gmail.com (ID: 3)
-[2025-11-08 17:15:36] [ERROR] Database connection failed: Database connection failed. Please try again later.
-[2025-11-08 17:22:48] [INFO] User logged in: zin@gmail.com (ID: 1)
-[2025-11-09 10:40:25] [ERROR] Recipes fetch error: Database connection failed. Please try again later.
-[2025-11-09 10:40:29] [ERROR] Recipes fetch error: Database connection failed. Please try again later.
-[2025-11-09 10:40:33] [ERROR] Community fetch error: Database connection failed. Please try again later.
-[2025-11-09 10:40:37] [ERROR] Community fetch error: Database connection failed. Please try again later.
-[2025-11-09 10:40:42] [ERROR] Login error: Database connection failed. Please try again later.
-[2025-11-09 10:43:34] [INFO] New user created: zw@gmail.com (ID: 3)
-[2025-11-09 10:44:32] [INFO] User logged in: zw@gmail.com (ID: 3)
-[2025-11-09 14:19:07] [INFO] User logged in: zin@gmail.com (ID: 1)
-[2025-11-09 16:47:24] [INFO] User logged in: zw@gmail.com (ID: 3)
+[2025-11-08 15:54:20] [ERROR] Database connection failed: Database connection failed. Please try again later.
+[2025-11-08 15:54:47] [ERROR] Signup error: Database connection failed. Please try again later.
+[2025-11-08 15:54:55] [ERROR] Recipes fetch error: Database connection failed. Please try again later.
+[2025-11-08 15:54:59] [ERROR] Recipes fetch error: Database connection failed. Please try again later.
+[2025-11-08 15:56:07] [ERROR] Signup error: Database connection failed. Please try again later.
+[2025-11-08 16:00:31] [INFO] New user created: zin@gmail.com (ID: 1)
+[2025-11-08 16:09:14] [INFO] User logged in: zin@gmail.com (ID: 1)
+[2025-11-08 16:10:18] [INFO] New user created: test1@gmail.com (ID: 2)
+[2025-11-08 16:32:30] [ERROR] Login error: Database connection failed. Please try again later.
+[2025-11-08 16:33:33] [ERROR] Login error: Database connection failed. Please try again later.
+[2025-11-08 16:34:31] [ERROR] Database connection failed: Database connection failed. Please try again later.
+[2025-11-08 16:36:14] [ERROR] Database connection failed: Database connection failed. Please try again later.
+[2025-11-10 02:46:46] [INFO] New user created: zinwai@gmail.com (ID: 7)
+[2025-11-10 02:51:11] [INFO] New user created: zinwai@gmail.com (ID: 3)
+[2025-11-10 02:52:39] [INFO] New user created: zin@gmail.com (ID: 4)
+[2025-11-10 02:54:05] [INFO] User logged in: zin@gmail.com (ID: 4)

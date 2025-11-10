@@ -7,7 +7,7 @@ ini_set('display_errors', 1);
 
 // Database configuration
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'foodfusion');
+define('DB_NAME', 'myfoodfusion');
 define('DB_USER', 'root');
 define('DB_PASS', ''); // Change this in production
 define('DB_CHARSET', 'utf8mb4');
@@ -15,7 +15,7 @@ define('DB_CHARSET', 'utf8mb4');
 // Application settings
 define('APP_NAME', 'FoodFusion');
 define('APP_URL', 'http://localhost:3000');
-define('API_URL', 'http://localhost:8080/api'); // Adjust based on your setup
+define('API_URL', 'http://localhost:8000/api'); // Adjust based on your setup
 
 // Security settings
 define('JWT_SECRET', 'your-secret-key-change-this-in-production'); // CHANGE THIS!
@@ -31,8 +31,8 @@ define('CORS_ALLOWED_ORIGINS', [
 // Email settings (for future password reset functionality)
 define('MAIL_HOST', 'smtp.gmail.com');
 define('MAIL_PORT', 587);
-define('MAIL_USERNAME', 'zinwaiyan1443@gmail.com');
-define('MAIL_PASSWORD', 'sowb ytjw tbvu kght');
+define('MAIL_USERNAME', 'your-email@gmail.com');
+define('MAIL_PASSWORD', 'your-email-password');
 define('MAIL_FROM', 'noreply@foodfusion.com');
 define('MAIL_FROM_NAME', 'FoodFusion');
 

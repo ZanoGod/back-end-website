@@ -1,7 +1,7 @@
 -- FoodFusion Complete Database Schema
 -- Create database
-CREATE DATABASE IF NOT EXISTS myfoodfusion CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE myfoodfusion;
+CREATE DATABASE IF NOT EXISTS foodfusion CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE foodfusion;
 
 -- Users table
 CREATE TABLE IF NOT EXISTS users (

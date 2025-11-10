@@ -25,15 +25,7 @@ try {
     $rateLimitCheck = checkLoginRateLimit($clientIP);
     
     if ($rateLimitCheck['blocked']) {
-        $response = [
-            'blocked' => true,
-            'remaining_seconds' => $rateLimitCheck['remaining_seconds'],
-            'blocked_until' => $rateLimitCheck['blocked_until'],
-            'message' => $rateLimitCheck['message']
-        ];
-        http_response_code(429);
-        echo json_encode(['success' => false, 'error' => $rateLimitCheck['message'], 'data' => $response]);
-        exit;
+        sendError($rateLimitCheck['message'], 429);
     }
     
     // Get JSON input
@@ -64,21 +56,6 @@ try {
     if (!$result['success']) {
         // Record failed attempt
         recordFailedLogin($clientIP);
-        
-        // Check if this failed attempt triggers a block
-        $newRateLimitCheck = checkLoginRateLimit($clientIP);
-        if ($newRateLimitCheck['blocked']) {
-            $response = [
-                'blocked' => true,
-                'remaining_seconds' => $newRateLimitCheck['remaining_seconds'],
-                'blocked_until' => $newRateLimitCheck['blocked_until'],
-                'message' => $newRateLimitCheck['message']
-            ];
-            http_response_code(429);
-            echo json_encode(['success' => false, 'error' => $newRateLimitCheck['message'], 'data' => $response]);
-            exit;
-        }
-        
         sendError($result['message'], 401);
     }
     

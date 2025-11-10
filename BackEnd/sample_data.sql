@@ -1,5 +1,5 @@
 -- Sample data for FoodFusion database
-USE myfoodfusion;
+USE foodfusion;
 
 -- Note: Test categories have been removed and replaced with comprehensive cuisine types
 

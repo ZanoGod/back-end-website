@@ -505,4 +505,4 @@ For issues or questions:
 
 ---
 
-\*_Built with ❤️ by Zin Wai Yan_
+**Built with ❤️ by FoodFusion Team**
